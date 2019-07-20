@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>Desarrollo Violentometro</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <script src="/__/firebase/6.0.2/firebase-app.js"></script>
+   <script src="/__/firebase/6.0.2/firebase-auth.js"></script>
+   <script src="/__/firebase/6.0.2/firebase-firestore.js"></script>
+   <script src="/__/firebase/init.js"></script>
+   <script type="module" src="js/cmp/form-navegacion.js"></script>
+   <script type="module" src="js/ctrlEscuelaNueva.js"></script>
+   <script type="module" src="js/cmp/herramientas-detalle3.js"></script>
+   <link rel="stylesheet" href="css/estilos.css">
+ </head>
+ <body>
+  <form-navegacion></form-navegacion>
+  <form name="vista">
+   <header>
+       <h1>Grupo Nuevo</h1>
+       <herramientas-detalle3 agrega></herramientas-detalle3>
+     </header>
+     <main role="main">
+      <br/>
+        <label accesskey="U">
+            Nombre de Escuela
+            <input type="text" name="escuela" required autofocus>
+        </label>
+        <br/>
+        <label accesskey="P">
+          Nombre Corto
+          <input type="text" name="id" required autofocus>
+      </label>
+    </main>
+   </form>
+</body>
+ <footer>
+    DERECHOS RESERVADOS A "TEAM-JADE"<br/>
+   <a href="TERMINOSANDC">
+     Terminos y Condiciones  
+     </a>
+  </footer>
+</html>

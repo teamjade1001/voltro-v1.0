@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>Desarrollo Violentometro</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <script src="/__/firebase/6.0.2/firebase-app.js"></script>
+   <script src="/__/firebase/6.0.2/firebase-auth.js"></script>
+   <script src="/__/firebase/6.0.2/firebase-firestore.js"></script>
+   <script src="/__/firebase/init.js"></script>
+   <script type="module" src="js/cmp/form-navegacion.js"></script>
+   <script type="module" src="js/cmp/herramientas-detalle.js"></script>
+   <script type="module" src="js/cmp/foranea-basica.js"></script>
+   <script type="module" src="js/cmp/campos-usuario.js"></script>
+   <script type="module" src="js/ctrlUsuario.js"></script>
+   <link rel="stylesheet" href="css/estilos.css">
+ </head>
+ <body>
+   <form-navegacion></form-navegacion>
+   <form name="vista">
+    <header>
+      <h1><output name="titulo">Cargando usuario&hellip;</output></h1>
+      <herramientas-detalle></herramientas-detalle>
+    </header>
+    <main role="main">
+      <campos-usuario></campos-usuario>
+    </main>
+  </form>
+ </body>
+ <footer>
+    DERECHOS RESERVADOS A "TEAM-JADE"<br/>
+   <a href="TERMINOSANDC">
+     Terminos y Condiciones  
+     </a>
+  </footer>
+</html>
